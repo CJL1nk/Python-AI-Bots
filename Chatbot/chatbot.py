@@ -5,7 +5,7 @@ openai.api_key = "ENTER YOUR KEY HERE"
 
 if openai.api_key == "ENTER YOUR KEY HERE":
     
-    input("Please enter your key on line 6 in this file, variable openai.api_key")
+    input("Please enter your key on line 4 in this file, variable openai.api_key")
     
 model_engine = "text-davinci-003"
 
