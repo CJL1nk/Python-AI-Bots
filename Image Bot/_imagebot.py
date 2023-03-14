@@ -1,9 +1,8 @@
 import torch
 from diffusers import StableDiffusionPipeline
 from datetime import datetime
-import os
 
-model_id = "CompVis/stable-diffusion-v1-4"
+model_id = "stabilityai/stable-diffusion-2"
 device = "cuda"
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, revision="fp16")
 pipe = pipe.to(device)
