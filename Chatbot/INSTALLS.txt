@@ -1,4 +1,0 @@
-pip install openai
-
-
-i love openai :D
